@@ -8,7 +8,7 @@ description = "A tool to find and replace given pattern with substitute inside f
 readme = "README.md"
 homepage = "https://github.com/isurfer21/FindReplace"
 repository = "https://github.com/isurfer21/FindReplace.git"
-keywords = ["cli", "find", "replace", "file", "pattern", "substitute", "json", "yaml", "cson"]
+keywords = ["cli", "find", "replace", "pattern", "substitute"]
 categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
