@@ -62,13 +62,13 @@ Extras:
 
 ### JSON vs YAML vs CSON
 
-JSON (JavaScript Object Notation), YAML (YAML Ain't Markup Language), and CSON (Compact Symbol Object Notation) are all data serialization formats used for storing and exchanging data.
+**JSON** (JavaScript Object Notation), **YAML** (YAML Ain't Markup Language), and **CSON** (Compact Symbol Object Notation) are all data serialization formats used for storing and exchanging data.
 
-JSON is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language and is often used for transmitting data between a server and a web application.
+[JSON](https://www.json.org/) is a lightweight data interchange format that is easy for humans to read and write and easy for machines to parse and generate. It is based on a subset of the JavaScript Programming Language and is often used for transmitting data between a server and a web application.
 
-YAML is a human-readable data serialization format that is commonly used for configuration files and in applications where data is being stored or transmitted. It is designed to be more readable than JSON and other data serialization formats and uses indentation to indicate nesting of data structures.
+[YAML](https://yaml.org/) is a human-readable data serialization format that is commonly used for configuration files and in applications where data is being stored or transmitted. It is designed to be more readable than JSON and other data serialization formats and uses indentation to indicate nesting of data structures.
 
-CSON is a YAML variation that defines data structures using concise YAML syntax. It strives to be smaller than JSON or YAML by excluding spaces around separators, unquoted keys, and other aspects that make it easier to write and read. It also allows for numerous special characters (symbols) to be used as separators, such as `;`, `,`, `|`, `/`, `~`. Although any of the available symbols can be chosen as a separator, it must be consistent across the document. Combining symbols is not allowed and may result in unexpected outcomes.
+[CSON](https://akzcool.blogspot.com/2023/05/introducing-cson-serialization-data.html) is a YAML variation that defines data structures using concise YAML syntax. It strives to be smaller than JSON or YAML by excluding spaces around separators, unquoted keys, and other aspects that make it easier to write and read. It also allows for numerous special characters (symbols) to be used as separators, such as `;`, `,`, `|`, `/`, `~`. Although any of the available symbols can be chosen as a separator, it must be consistent across the document. Combining symbols is not allowed and may result in unexpected outcomes.
 
 Each of these formats has its own strengths and weaknesses. JSON is widely supported and easy to use, but can be more difficult to read than YAML or CSON due to its strict syntax. YAML is more readable than JSON, but its reliance on indentation can make it more difficult to work with in some cases. CSON offers many of the same benefits as YAML, but its use of Compact Symbol syntax may make it less accessible to developers who are not familiar with that language.
 
